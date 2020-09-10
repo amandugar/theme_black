@@ -35,7 +35,7 @@ app.get("/sectors", function (req, res) {
   res.render("sectors")
 })
 
-port = process.env.PORT || 81 || 443;
+port = process.env.PORT || 5000 || 443;
 app.listen(port, function () {
   console.log(`${port}`)
 });
